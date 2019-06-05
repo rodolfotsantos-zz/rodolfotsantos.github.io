@@ -94,6 +94,12 @@ ul li {
 .section {
 	padding: 50px 0;
 }
+#abc {
+	padding: 100px 0 100px 0;
+	background-color: #EEF6FF;
+	border-top: 24px solid #FED6E4;
+}
+
 .no-padding {
 	padding: 0;
 }
@@ -357,10 +363,13 @@ table { border-spacing: 5px; }
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
 	opacity: 1;
+	border-style: solid;
+	border-color: #fff; /* cor da borda mesmo, que fica por fora de tudo */
+	border-width: 10px; /* espessura das bordas */
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
 	position: absolute;
-	top: 50%;
+	top: 46%;
 	width: 100%;
 	height: 20px;
 	margin-top: -12px;
