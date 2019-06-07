@@ -436,7 +436,7 @@ table { border-spacing: 5px; }
 .footer {
 	text-align: left;
 	background-color: #2E5BFF;
-	padding: 2%;
+	padding: 4% 0 4% 0;
 }
 .footer h4 {
 	color: #fff;
