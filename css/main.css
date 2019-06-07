@@ -13,8 +13,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
 p {
 	font-size: 14px;
-	line-height: 22.4px;
-	color: #6c7279;
+	line-height: 160%;
+	color: #577188;
+	margin: 0 0 4% 0;
 }
 h1 {
 	font-size: 66px;
@@ -550,6 +551,7 @@ hr{
 	letter-spacing: 1px;
 	text-transform: lowercase;
 }
+
 #previous * {
 	z-index: 2;
 }
