@@ -50,6 +50,11 @@
 	bottom: 20px;
 }
 }
+
+
+
+
+
 @media screen and (max-width: 768px) {
 #header .header-content {
 	padding: 30px 0%;
@@ -73,6 +78,12 @@
 	margin-top: 25%;
 	font-size: 24px;
 }
+
+.hero-content h2 {
+	margin-top: 15%;
+	font-size: 30px;
+}
+
 .hero-content p {
 	margin-top: 0px;
 
@@ -89,6 +100,9 @@
 margin-top:40%;	
 }
 }
+
+
+
 @media screen and (max-width: 640px) {
 #header .header-content {
 	padding: 30px 0%;
@@ -100,9 +114,15 @@ margin-top:40%;
 	margin-top: 0px;
 }
 .hero-content h1 {
+	margin-top: 50%;
+	font-size: 24px;
+}
+
+.hero-content h2 {
 	margin-top: 25%;
 	font-size: 24px;
 }
+
 .hero-content h4 {
 	margin-top: 25%;
 
@@ -115,6 +135,9 @@ margin-top:40%;
 margin-top:10%;	
 }
 }
+
+
+
 @media screen and (max-width: 480px) {
 #header .header-content {
 	padding: 30px 0%;
@@ -126,7 +149,7 @@ margin-top:10%;
 	margin-top: 0px;
 }
 .hero-content h1 {
-	margin-top: 25%;
+	margin-top: 50%;
 	font-size: 24px;
 }
 .hero-content h4 {
