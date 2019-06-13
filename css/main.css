@@ -512,6 +512,7 @@ footer .social li a:hover {
 
 .work-detail img {
 	width: 100%;
+	max-width: 1600px;
 	text-align: center;
 }
 
