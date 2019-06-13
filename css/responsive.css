@@ -49,6 +49,7 @@
 .flex-control-nav {
 	bottom: 20px;
 }
+
 }
 
 
@@ -82,6 +83,10 @@
 .hero-content h2 {
 	margin-top: 15%;
 	font-size: 30px;
+}
+
+#line-title {
+	margin-top: 15%;
 }
 
 .hero-content p {
@@ -120,7 +125,11 @@ margin-top:40%;
 
 .hero-content h2 {
 	margin-top: 25%;
-	font-size: 24px;
+	font-size: 28px;
+}
+
+#line-title {
+	margin-top: 25%;
 }
 
 .hero-content h4 {
@@ -130,8 +139,7 @@ margin-top:40%;
 .service {
     margin: 50px 0 50px 0;
 }
-.btn
-{
+.btn {
 margin-top:10%;	
 }
 }
@@ -152,10 +160,22 @@ margin-top:10%;
 	margin-top: 30%;
 	font-size: 24px;
 }
+
+.hero-content h2 {
+	margin-top: 25%;
+	font-size: 28px;
+}
+
+#line-title {
+	margin-top: 25%;
+}
+
+
 .hero-content h4 {
 	margin-top: 25%;
 
 }
+
 .hero-content p {
     margin-top: 0px;
 }
@@ -167,6 +187,7 @@ margin-top:10%;
     margin: 50px 0 50px 0;
 }
 }
+
 @media screen and (max-width: 320px) {
 #header .header-content {
 	padding: 30px 2%;
@@ -185,6 +206,12 @@ margin-top:10%;
 	margin-top: 25%;
 
 }
+
+.line-title {
+	margin-top: 15%;
+}
+
+
 .hero-content p {
     margin-top: 0px;
 }

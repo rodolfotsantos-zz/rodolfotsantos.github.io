@@ -14,7 +14,7 @@
 p {
 	font-size: 14px;
 	line-height: 160%;
-	color: #577188;
+	color: #2E3545;
 	margin: 0 0 4% 0;
 }
 h1 {
@@ -26,12 +26,12 @@ h1 {
 h2 {
 	font-size: 40px;
 	color: #2E5BFF;
-	font-weight: 800;
+	font-weight: 900;
 	line-height: 130%;
 }
 h3 {
 	font-size: 28px;
-	color: #2d3033;
+	color: #2E3545;
 	font-weight: 300;
 }
 h4 {
@@ -50,7 +50,6 @@ h5 {
 	color: #2E5BFF;
 	font-weight: 600;
 	line-height: 160%;
-	margin: 20px 0 1	0px 0;
 }
 
 .btn {
@@ -87,9 +86,8 @@ a:hover, a:focus {
 }
 body {
 	font-family: 'Montserrat';
-	font-weight: 400;
-	color: #fff;
 }
+
 ul, ol {
 	margin: 0;
 	padding: 0;
@@ -101,6 +99,16 @@ ul li {
 .section {
 	padding: 50px 0;
 }
+
+.bg-img {
+	background-size: 100%;
+    background-image: url('../images/loggi-brand/typography.jpg');
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 #section-bgwork {
 	padding: 60px 0 60px 0;
 	background-color: #EEF6FF;
@@ -485,7 +493,7 @@ footer .social li a:hover {
 }
 
 /* ------------------------------------------------------------------------------
-	 Work Details
+	 Work Details margin: 0 0 5% 0;
 -------------------------------------------------------------------------------*/
 .work-cover {
 	width: 100%;
@@ -496,7 +504,6 @@ footer .social li a:hover {
 .work-detail img {
 	width: 100%;
 	text-align: center;
-	margin: 0 0 5% 0;
 }
 
 .work-detail a {
@@ -505,6 +512,11 @@ footer .social li a:hover {
 
 hr{
 	border-color: #C5D3E0;
+}
+
+#line-title{
+	margin-bottom: 0;
+	border-top: 6px solid #2E5BFF;
 }
 
 /* ------------------------------------------------------------------------------
@@ -574,3 +586,9 @@ hr{
 /* ------------------------------------------------------------------------------
 	 Service
 -------------------------------------------------------------------------------*/
+#teste2{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/loggi-brand/typography.jpg');
+    background-repeat: no-repeat;
+}
