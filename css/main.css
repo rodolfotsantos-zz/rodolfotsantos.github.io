@@ -17,6 +17,8 @@ p {
 	color: #2E3545;
 	margin: 0 0 4% 0;
 }
+
+
 h1 {
 	font-size: 66px;
 	color: #8B9FB7;
@@ -50,6 +52,13 @@ h5 {
 	color: #2E5BFF;
 	font-weight: 600;
 	line-height: 160%;
+}
+
+text {
+	font-size: 12px;
+	line-height: 140%;
+	color: #2E3545;
+	margin: 0 0 4% 0;
 }
 
 .btn {
@@ -390,7 +399,7 @@ table { border-spacing: 5px; }
 	opacity: 1;
 	border-style: solid;
 	border-color: #fff; /* cor da borda mesmo, que fica por fora de tudo */
-	border-width: 10px; /* espessura das bordas */
+	border-width: 6px; /* espessura das bordas */
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
 	position: absolute;
@@ -548,7 +557,7 @@ hr{
 	opacity: 1;
 	border-style: solid;
 	border-color: #fff; /* cor da borda mesmo, que fica por fora de tudo */
-	border-width: 20px; /* espessura das bordas */
+	border-width: 6px; /* espessura das bordas */
 }
 #previous .previous-item .previous-link .caption .caption-content {
 	position: absolute;
@@ -586,9 +595,6 @@ hr{
 /* ------------------------------------------------------------------------------
 	 Service
 -------------------------------------------------------------------------------*/
-#teste2{
-    width: 100%;
-    height: auto;
-    background-image: url('../images/loggi-brand/typography.jpg');
-    background-repeat: no-repeat;
-}
+.container { 
+	max-width: 960px; 
+} 
