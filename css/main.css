@@ -15,22 +15,22 @@ p {
 	font-size: 14px;
 	line-height: 160%;
 	color: #2E3545;
-	margin: 0 0 4% 0;
 }
 
 
 h1 {
-	font-size: 66px;
+	font-size: 54px;
 	color: #8B9FB7;
 	font-weight: 800;
 	line-height: 130%;
 }
 h2 {
 	font-size: 40px;
-	color: #2E5BFF;
-	font-weight: 900;
+	font-weight: 700;
 	line-height: 130%;
+	color: #2E3545;
 }
+
 h3 {
 	font-size: 28px;
 	color: #2E3545;
@@ -84,7 +84,7 @@ text {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #98BAD7;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -119,10 +119,8 @@ ul li {
 }
 
 #section-bgwork {
-	padding: 60px 0 60px 0;
-	background-color: #EEF6FF;
-	border-top: 4px solid #FED6E4;
-	border-bottom: 10px solid #FED6E4;
+	padding: 0px 0 20px 0;
+	background-color: #fff;
 }
 
 #section-previous {
@@ -200,13 +198,13 @@ table { border-spacing: 5px; }
 	display: inline-block;
 }
 .navigation, .navigation a {
-	color: rgba(0, 0, 0, 1);
+	color: #2E5BFF;
 	font-size: 16px;
 	margin-left: 40px;
 	letter-spacing: -1px;
 }
 .navigation a:hover, .navigation a.active {
-	color: #000;
+	color: #2E5BFF;
 }
 .nav-toggle {
 	display: none;
@@ -357,6 +355,7 @@ table { border-spacing: 5px; }
 
 .hero h1 {
 	font-size: 48px;
+	color: #2E5BFF;
 }
 
 
@@ -364,9 +363,6 @@ table { border-spacing: 5px; }
 	font-size: 16px;
 }
 
-.hero p {
-	padding-top: 20px;
-}
 
 /* ------------------------------------------------------------------------------
 	 Portfolio .hero p {
@@ -461,26 +457,23 @@ table { border-spacing: 5px; }
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
+	padding: 30px 0 20px 0;
 	text-align: left;
-	background-color: #2E5BFF;
-	padding: 4% 0 4% 0;
+	background-color: #Fff;
+	border-bottom: 6px solid #2E5BFF;
 }
-.footer h4 {
-	color: #fff;
-	margin: 0 0 6px 0;
-	padding: 0px;
-}
+
 .footer p {
-	color: #fff;
+	color: #95C7F3;
 }
 .footer a {
-	color: #fff;
+	color: #95C7F3;
 }
 .footer a:hover {
 	text-decoration: none;
 }
 .footer .fa-heart {
-	color: #e84545;
+	color: #2E3545;
 	font-size: 14px;
 	margin: 2px 2px;
 }
@@ -492,7 +485,7 @@ footer .social li {
 
 footer .social li a {
     font-size: 1.25em;
-	color: #fff; 
+	color: #95C7F3; 
 }
 
 footer .social li a:hover {
@@ -520,11 +513,12 @@ footer .social li a:hover {
 }
 
 .work-detail a {
-	color: blue;
+	color: #2E5BFF;
 }
 
 hr{
 	border-color: #C5D3E0;
+	width: 100%;
 }
 
 #line-title{
@@ -602,3 +596,19 @@ hr{
 .container { 
 	max-width: 960px; 
 } 
+
+.projects {
+	padding: 2% 0 2% 0;
+}
+
+.projects h1 {
+	font-size: 40px;
+	line-height: 100%;
+	color: #C5D3E0;
+}
+
+.projects h4 {
+	font-size: 20px;
+	color: #2E5BFF;
+	font-weight: 600;
+}

@@ -2,6 +2,8 @@
 #header .header-content {
 	width: 90%;
 }
+
+
 #header .header-content {
 	padding: 30px 0%;
 }
@@ -121,6 +123,11 @@ margin-top:40%;
 #header .header-content {
 	padding: 30px 0%;
 }
+
+.section {
+	padding: 70px 0;
+}
+
 .navigation, .navigation a {
 	margin-left: 0px;
 }
@@ -136,6 +143,7 @@ margin-top:40%;
 	margin-top: 25%;
 	font-size: 28px;
 }
+
 
 #line-title {
 	margin-top: 25%;
@@ -154,6 +162,12 @@ margin-top:10%;
 .container { 
 	max-width: 94%; 
 } 
+.projects h1 {
+	font-size: 30px;
+	line-height: 100%;
+	color: #C5D3E0;
+}
+
 }
 
 
@@ -201,6 +215,11 @@ margin-top:10%;
 .container { 
 	max-width: 94%; 
 } 
+.projects h1 {
+	font-size: 30px;
+	line-height: 100%;
+	color: #C5D3E0;
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -239,4 +258,11 @@ margin-top:10%;
 .container { 
 	max-width: 94%; 
 } 
+.projects h1 {
+	font-size: 30px;
+	line-height: 100%;
+	color: #C5D3E0;
+}
+
+
 }
