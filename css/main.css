@@ -514,6 +514,9 @@ footer .social li a:hover {
 	width: 100%;
 	max-width: 1600px;
 	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .work-detail a {
