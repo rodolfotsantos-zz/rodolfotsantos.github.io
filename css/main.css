@@ -357,7 +357,7 @@ table { border-spacing: 5px; }
 .hero h1 {
 	font-size: 48px;
 	color: #577188;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .hero h4 {
@@ -403,9 +403,6 @@ table { border-spacing: 5px; }
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
 	opacity: 1;
-	border-style: solid;
-	border-color: #fff; /* cor da borda mesmo, que fica por fora de tudo */
-	border-width: 6px; /* espessura das bordas */
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
 	position: absolute;
@@ -567,5 +564,7 @@ hr{
 }
 .projects a:hover {
 	color: #2E5BFF;
-	-webkit-transition: 0.5s;
 }
+
+
+
