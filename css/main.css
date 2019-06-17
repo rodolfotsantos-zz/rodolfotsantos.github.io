@@ -1,23 +1,14 @@
-/* ------------------------------------------------------------------------------
-	Template Name: Flosix
-	Author: Designstub
-	Author URI: http://www.designstub.com
-	License: GNU General Public License version 3.0
-	License URI: http://www.gnu.org/licenses/gpl-3.0.html
-	Version: 1.0
-
-/* ------------------------------------------------------------------------------
-	Typography
--------------------------------------------------------------------------------*/
-
+/* ------------------------------------------------------------------------------ 
+Template Name: Flosix Author: Designstub Author URI: http://www.designstub.com License: GNU General Public License version 3.0 License URI: http://www.gnu.org/licenses/gpl-3.0.html Version: 1.0 
+/* ------------------------------------------------------------------------------ 
+Typography -------------------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
 p {
 	font-size: 14px;
 	line-height: 160%;
 	color: #2E3545;
+	margin: 10px 0 10px 0;
 }
-
-
 h1 {
 	font-size: 54px;
 	color: #8B9FB7;
@@ -30,7 +21,6 @@ h2 {
 	line-height: 130%;
 	color: #2E3545;
 }
-
 h3 {
 	font-size: 28px;
 	color: #2E3545;
@@ -41,33 +31,29 @@ h4 {
 	color: #C5D3E0;
 	font-weight: 600;
 }
-
 h4:hover {
 	color: #2E5BFF;
 	transition: 0.5s;
 }
-
 h5 {
 	font-size: 10px;
 	color: #2E5BFF;
 	font-weight: 600;
 	line-height: 160%;
+	margin-bottom: 0;
 }
-
 h6 {
 	font-size: 10px;
 	color: #2E5BFF;
 	font-weight: 600;
 	line-height: 160%;
 }
-
 text {
 	font-size: 12px;
 	line-height: 140%;
 	color: #2E3545;
 	margin: 0 0 4% 0;
 }
-
 .btn {
 	background-color: #333;
 	margin: 40px;
@@ -87,15 +73,13 @@ text {
 .btn-large {
 	padding: 15px 40px;
 }
-/* ------------------------------------------------------------------------------
-	Global Styles
--------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------ 
+Global Styles -------------------------------------------------------------------------------*/
 a:hover {
 	color: #2E5BFF;
 	transition: 0.5s;
 	-webkit-transition: 0.5s;
 }
-
 a:hover, a:focus {
 	text-decoration: none;
 	-moz-transition: background-color, color, 0.3s;
@@ -104,9 +88,8 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: 'Montserrat';
+	font-family:'Montserrat';
 }
-
 ul, ol {
 	margin: 0;
 	padding: 0;
@@ -118,26 +101,22 @@ ul li {
 .section {
 	padding: 50px 0 0 0;
 }
-
 .bg-img {
 	background-size: 100%;
-    background-image: url('../images/loggi-brand/typography.jpg');
+	background-image: url('../images/loggi-brand/typography.jpg');
 	background-repeat: no-repeat;
 	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+	background-position: center;
+	background-size: cover;
 }
-
 #section-bgwork {
 	padding: 0px 0 20px 0;
 	background-color: #fff;
 }
-
 #section-previous {
 	background-color: #EEF6FF;
 	border-bottom: 10px solid #FED6E4;
 }
-
 .no-padding {
 	padding: 0;
 }
@@ -148,24 +127,24 @@ ul li {
 .extra-padding {
 	margin: 60px 0 0 100px;
 }
-/* ------------------------------------------------------------------------------
-	 Header
--------------------------------------------------------------------------------*/
-
-
-/* ------------------------------------------------------------------------------
-	 Tables
--------------------------------------------------------------------------------*/
-
-td { background: none; padding: none; }
-.tdEspaco { display: table; float:left; margin-right:30px }
-table { border-spacing: 5px; }
-
-/* ------------------------------------------------------------------------------
-	 Tables
--------------------------------------------------------------------------------*/
-
-
+/* ------------------------------------------------------------------------------ 
+Header -------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------ 
+Tables -------------------------------------------------------------------------------*/
+td {
+	background: none;
+	padding: none;
+}
+.tdEspaco {
+	display: table;
+	float:left;
+	margin-right:30px 
+}
+table {
+	border-spacing: 5px;
+}
+/* ------------------------------------------------------------------------------ 
+Tables -------------------------------------------------------------------------------*/
 #header {
 	position: fixed;
 	width: 100%;
@@ -354,47 +333,36 @@ table { border-spacing: 5px; }
 	-webkit-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
 }
-/* ------------------------------------------------------------------------------
-	 Hero content
--------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------ 
+Hero content -------------------------------------------------------------------------------*/
 .hero {
 	margin-top: 16%;
 }
-
 .hero h1 {
 	font-size: 48px;
 	color: #577188;
 	font-weight: 600;
 }
-
 .hero h4 {
 	font-size: 16px;
 }
-
 .hero a {
 	color: #2E3545;
 }
-
-
-
-/* ------------------------------------------------------------------------------
-	 Portfolio .hero p {
+/* ------------------------------------------------------------------------------ 
+Portfolio .hero p {
 	padding-top: 20px;
 }
-
 .hero a:hover {
 	color: #2E5BFF;
 	transition: 0.5s;
 }
-
-
 -------------------------------------------------------------------------------*/
 #portfolio .portfolio-item {
 	right: 0;
 	margin: 0 0 20px;
 	padding: 0 10px;
 }
-
 #portfolio .portfolio-item .portfolio-link {
 	display: block;
 	position: relative;
@@ -445,8 +413,10 @@ table { border-spacing: 5px; }
 #portfolio {
 	z-index: 2;
 }
-/* ------------------------------------------------------------------------------
-	 Service .service {
+/* ------------------------------------------------------------------------------ 
+Service 
+
+.service {
 	margin-bottom: 50px;
 }
 .service h4 {
@@ -466,12 +436,10 @@ table { border-spacing: 5px; }
 	color: #000;
 }
 -------------------------------------------------------------------------------*/
-
-/*text-transform: uppercase;*/
-
-
-/* ------------------------------------------------------------------------------
-	 Footer
+/*text-transform: uppercase;
+*/
+/* ------------------------------------------------------------------------------ 
+Footer 
 -------------------------------------------------------------------------------*/
 .footer {
 	padding: 50px 0 20px 0;
@@ -479,7 +447,6 @@ table { border-spacing: 5px; }
 	background-color: #Fff;
 	border-bottom: 6px solid #2E5BFF;
 }
-
 .footer p {
 	color: #95C7F3;
 }
@@ -495,85 +462,67 @@ table { border-spacing: 5px; }
 	font-size: 14px;
 	margin: 2px 2px;
 }
-
 footer .social li {
-    display: inline;
-	margin: 0 20px 0 0; 
+	display: inline;
+	margin: 0 20px 0 0;
 }
-
 footer .social li a {
-    font-size: 1.25em;
-	color: #95C7F3; 
+	font-size: 1.25em;
+	color: #95C7F3;
 }
-
 footer .social li a:hover {
-    font-size: 1.25em;
+	font-size: 1.25em;
 	color: #2E5BFF;
 	transition: 0.5s;
 }
-
-/* ------------------------------------------------------------------------------
-	 Work Details margin: 0 0 5% 0;
+/* ------------------------------------------------------------------------------ 
+Work Details margin: 0 0 5% 0;
 -------------------------------------------------------------------------------*/
 .work-cover {
 	width: 100%;
 	text-align: center;
 	margin: 0;
 }
-
 .work-detail img {
 	width: 100%;
 	max-width: 1600px;
 	text-align: center;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .work-detail a {
 	color: #2E5BFF;
 }
-
 hr{
 	border-color: #C5D3E0;
 	width: 100%;
 }
-
 #line-title{
 	margin-bottom: 0;
 	border-top: 6px solid #2E5BFF;
 }
-
-
-/* ------------------------------------------------------------------------------
-	 Service
--------------------------------------------------------------------------------*/
-.container { 
-	max-width: 960px; 
-} 
-
+/* ------------------------------------------------------------------------------ 
+Service -------------------------------------------------------------------------------*/
+.container {
+	max-width: 960px;
+}
 .projects {
 	padding: 2% 0 2% 0;
 }
-
 .projects h1 {
 	font-size: 40px;
 	line-height: 100%;
 	color: #8B9FB7;
 }
-
 .projects h4 {
 	font-size: 20px;
 	color: #2E3545;
 	font-weight: 600;
 }
-
 .projects a {
 	color: #8B9FB7;
 }
 .projects a:hover {
 	color: #2E5BFF;
 }
-
-
-
