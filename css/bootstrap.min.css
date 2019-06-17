@@ -1106,10 +1106,16 @@ hr{
     cursor:pointer
 }
 
-.h1,.h2,.h3,h1,h2,h3{
+.h1,.h3,h1,h3{
     margin-top:20px;
     margin-bottom:10px
 }
+
+.h2,h2{
+    margin-top:34px;
+    margin-bottom:10px
+}
+
 
 
 .lead{
@@ -1388,8 +1394,6 @@ pre code{
     }
 }
 .container-fluid{
-    padding-right:15px;
-    padding-left:15px;
     margin-right:auto;
     margin-left:auto
 }

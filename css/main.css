@@ -3,29 +3,38 @@ Template Name: Flosix Author: Designstub Author URI: http://www.designstub.com L
 /* ------------------------------------------------------------------------------ 
 Typography -------------------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+/* --------
+Texto corrido --------*/
 p {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 160%;
-	color: #2E3545;
+	color: #577188;
 	margin: 10px 0 10px 0;
 }
 h1 {
 	font-size: 54px;
-	color: #8B9FB7;
+	color: #577188;
 	font-weight: 600;
 	line-height: 130%;
 }
+/* --------
+Título projeto --------*/
 h2 {
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 130%;
 	color: #2E3545;
 }
+/* --------
+Subtítulo projeto --------*/
 h3 {
 	font-size: 28px;
-	color: #2E3545;
+	color: #577188;
 	font-weight: 600;
 }
+/* --------
+links na home --------*/
 h4 {
 	font-size: 20px;
 	color: #C5D3E0;
@@ -35,6 +44,8 @@ h4:hover {
 	color: #2E5BFF;
 	transition: 0.5s;
 }
+/* --------
+Título das funções --------*/
 h5 {
 	font-size: 10px;
 	color: #2E5BFF;
@@ -43,15 +54,21 @@ h5 {
 	margin-bottom: 0;
 }
 h6 {
-	font-size: 10px;
-	color: #2E5BFF;
-	font-weight: 600;
-	line-height: 160%;
+	color: #577188;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	text-transform: none;
+	margin: 4px 0 10px 0;
 }
+/* --------
+Texto das funções --------*/
 text {
 	font-size: 12px;
 	line-height: 140%;
-	color: #2E3545;
+	color: #577188;
 	margin: 0 0 4% 0;
 }
 .btn {
@@ -458,7 +475,7 @@ Footer
 	color: #2E5BFF;
 }
 .footer .fa-heart {
-	color: #2E3545;
+	color: #FED6E4;
 	font-size: 14px;
 	margin: 2px 2px;
 }
@@ -500,6 +517,7 @@ hr{
 }
 #line-title{
 	margin-bottom: 0;
+	margin-top: 34px;
 	border-top: 6px solid #2E5BFF;
 }
 /* ------------------------------------------------------------------------------ 
@@ -525,4 +543,9 @@ Service ------------------------------------------------------------------------
 }
 .projects a:hover {
 	color: #2E5BFF;
+}
+
+a:hover{
+	color: #2E5BFF;
+	transition: 0.5s;
 }
