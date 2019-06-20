@@ -138,6 +138,7 @@
 		padding: 100px 0 0 0;
 	}
 	
+	
 	}
 	
 	
@@ -192,6 +193,16 @@
 		line-height: 100%;
 		color: #C5D3E0;
 	}
+	.carousel-caption{
+		visibility: hidden;
+		backface-visibility: hidden;
+		}
+		.carousel-control .arrow-left,.carousel-control .icon-prev{
+			margin-left:0px;
+		}
+		.carousel-control .arrow-right,.carousel-control .icon-next{
+			margin-left:-8px;
+		}
 	}
 	
 	
@@ -200,6 +211,10 @@
 	#header .header-content {
 		padding: 30px 0%;
 	}
+	.carousel-caption{
+		visibility: hidden;
+		backface-visibility: hidden;
+		}
 	
 	.navigation, .navigation a {
 		margin-left: 0px;
@@ -249,6 +264,10 @@
 	#header .header-content {
 		padding: 30px 2%;
 	}
+	.carousel-caption{
+		visibility: hidden;
+		backface-visibility: hidden;
+		}
 	.navigation, .navigation a {
 		margin-left: 0px;
 	}
