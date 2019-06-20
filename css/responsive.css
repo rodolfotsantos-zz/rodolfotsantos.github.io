@@ -27,6 +27,16 @@
 		-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
 		transition: opacity 0.5s, visibility 0s 0.5s;
 	}
+
+	.navigation h4 {
+		font-size: 28px;
+		color: #577188;
+		font-weight: 600;
+	}
+	.navigation h4:hover {
+		color: #2E5BFF;
+		transition: 0.5s;
+	}
 	.navigation .primary-nav {
 		position: relative;
 		top: 45%;
@@ -38,7 +48,7 @@
 	.navigation li {
 		display: block;
 		font-size: 25px;
-			text-align: center;
+		text-align: center;
 		margin-bottom: 20px;
 	}
 	.navigation a {
