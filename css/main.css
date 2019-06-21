@@ -178,7 +178,13 @@ Tables -------------------------------------------------------------------------
 }
 #header .logo {
 	float: left;
-	padding-left: 4px;
+}
+.logo:hover {
+	float: left;
+    text-decoration:none;
+	background-image: url('../images/logo-blue-new-hover.svg');
+	background-repeat: no-repeat;
+	
 }
 #header.fixed {
 	background-color: none;
