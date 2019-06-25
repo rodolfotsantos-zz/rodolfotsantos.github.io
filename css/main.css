@@ -176,15 +176,15 @@ Tables -------------------------------------------------------------------------
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
+#logo-wolf {
+	stroke: #C5D3E0;
+	transition: 0.5s;
+}
 #header .logo {
 	float: left;
 }
-.logo:hover {
-	float: left;
-    text-decoration:none;
-	background-image: url('../images/logo-blue-new-hover.svg');
-	background-repeat: no-repeat;
-	
+#logo-wolf:hover {
+	stroke: #2E5BFF;
 }
 #header.fixed {
 	background-color: none;
@@ -234,6 +234,7 @@ Tables -------------------------------------------------------------------------
 	transition: all 0.3s;
 	position: fixed;
 }
+
 
 .nav-toggle:before, .nav-toggle:after {
 	border-radius: 50%;
